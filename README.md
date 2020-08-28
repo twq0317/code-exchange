@@ -27,11 +27,11 @@ l = f_i(s)
 
 ### 1.4  定义每个样条段优化目标函数
 
-```
+
 $$
 cost = \sum_{i=1}^{n} \Big( w_1 \cdot \int\limits_{0}^{d_i} (f_i')^2(s) ds + w_2 \cdot \int\limits_{0}^{d_i} (f_i'')^2(s) ds + w_3 \cdot \int\limits_{0}^{d_i} (f_i^{\prime\prime\prime})^2(s) ds \Big)
 $$
-```
+
 
 ### 1.5  将开销（cost）函数转换为QP公式
 
